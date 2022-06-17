@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    display: grid;
+    place-items: center;
+}
+
+.calcContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pantalla {
+    background-color: rgb(255, 255, 255);
+    width: 57vw;
+    height: 15vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-style: solid;
+}
+
+
+button {
+    background-color: rgb(161, 184, 244);
+    width: 80px;
+    height: 60px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+
+#numberBtn:hover, #divisionBtn:hover, #sumaBtn:hover, 
+#restaBtn:hover, #multBtn:hover, #decimalBtn:hover {
+background-color: rgb(4, 77, 213);
+color: antiquewhite;
+}
+
+#acBtn , #delBtn, #igualBtn button{
+    background-color: rgb(236, 165, 50);
+    width: 80px;
+    height: 60px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+}
+
+#acBtn:hover , #delBtn:hover, #igualBtn:hover {
+    background-color: rgb(240, 112, 0);
+    color: antiquewhite;
+    }
+
